@@ -1,17 +1,24 @@
 :root {
   --font-family: "IBM Plex Mono", monospace;
+
   --bg-color: #000028;
   --bg-image: url("../images/cover-image-dark.png");
+
   --text-color: #f1b2ce;
   --title-color: #db00ff;
   --accent-color: #ff0070;
+
   --decor-bg-color: var(--accent-color);
   --decor-text-color: #000028;
+
   --border-color: var(--accent-color);
+
   --accent-color-transparent: rgb(255 0 112 / 0.4);
+
   --title-shadow-color: var(--accent-color);
+
   --rec-display: block;
+
   --page-padding: 10px;
   --corner-size: 25px;
 }
-
