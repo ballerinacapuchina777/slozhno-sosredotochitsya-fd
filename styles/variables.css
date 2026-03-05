@@ -1,59 +1,45 @@
 :root {
-  /* ========== Fonts ========== */
   --font-family: 'IBM Plex Mono', monospace;
 
-  /* ========== Typography ========== */
   --text-size: 18px;
   --text-line-height: 1.5;
   --font-weight-regular: 400;
   --font-weight-bold: 700;
 
-  /* ========== Layout (mobile-first) ========== */
   --page-padding: 10px;
   --section-gap: 50px;
   --block-gap: 20px;
   --card-gap: 20px;
   
 
-  /* Header/Footer min heights by layout (mobile default) */
   --header-min-height: 668px;
   --footer-min-height: 668px;
 
-  /* ========== Decor (corners) ========== */
   --decor-thickness: 1px;
   --decor-offset: 10px;
 
-  /* ========== Interaction ========== */
   --outline-size: 1px;
 
-  /* ===== Theme variables (DARK is default) ===== */
   --bg-color: #000028;
   --text-color: #f1b2ce;
   --accent-color: #ff0070;
   --section-title-color: var(--accent-color);
 
-  /* big titles */
   --title-color: #db00ff;
 
-  /* text on accent blocks (subtitle, card titles with title-decor) */
   --subtitle-color: #000028;
   --text-on-accent: #000028;
 
-  /* decor strokes color */
   --decor-color: #ff0070;
 
-  /* background image */
   --bg-image: url('../images/cover-image-dark.png');
 
-  /* glow/shadows */
   --title-text-shadow: 4px 4px 0 var(--accent-color);
   --rec-shadow-color: var(--accent-color);
   --link-shadow: 2px 2px 0 var(--accent-color);
 
-  /* REC visible by default (dark) */
   --rec-display: inline-flex;
 
-  /* theme menu hover border (color like text with opacity) */
   --menu-border-hover: rgb(241 178 206 / 0.4);
 
   --aside-col-desktop: 315px;
