@@ -1,7 +1,7 @@
 :root.theme-light {
   --bg-color: #fff1f7;
   --text-color: #353430;
-  
+  --menu-color: #353430;
   --accent-color: #ff8dcb;
 
   --title-color: #ffc2e6;
@@ -27,7 +27,7 @@
     --bg-color: #fff1f7;
     --text-color: #353430;
     --accent-color: #ff8dcb;
-
+    --menu-color: #353430;
     --title-color: #ffc2e6;
     --section-title-color: var(--text-color);
     --subtitle-color: #353430;

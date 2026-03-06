@@ -55,7 +55,7 @@
   justify-self: end;
   align-self: start;
   padding-block-start: 67px;
-  color: var(--accent-color);
+  color: var(--menu-color);
 }
 
 .header__theme-menu-list {
@@ -285,6 +285,7 @@
   .header__subtitle {
     justify-self: end;
     max-inline-size: 364px;
+    margin-block-end: 64px;
   }
 
   .header__theme-menu-list {
@@ -300,6 +301,12 @@
     margin-block: 60px;
     padding-block-end: 60px;
     gap: 80px;
+  }
+
+  .content__section {
+    grid-template-columns: 1fr 2fr;
+    column-gap: 20px;
+    align-items: start;
   }
 
   .content__section {
