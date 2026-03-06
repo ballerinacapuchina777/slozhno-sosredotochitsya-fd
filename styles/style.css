@@ -139,7 +139,7 @@
 
 .header__subtitle {
   justify-self: start;
-  max-inline-size: 355px;
+  min-inline-size: 380px;
   font-weight: var(--font-weight-bold);
   align-self: end;
   line-height: 1.5;
