@@ -316,6 +316,15 @@
     align-items: start;
   }
 
+  .content__section_type_what {
+    grid-template-columns: 1fr;
+    gap: 20px;
+  }
+
+  .content__section_type_what .content__cards {
+    grid-template-columns: 1fr;
+    gap: 20px;
+  }
 
   .gallery {
     gap: 20px;
