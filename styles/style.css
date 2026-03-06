@@ -386,7 +386,7 @@
 
   .header__title {
     margin-inline-start: calc(-1 * var(--page-padding));
-    margin-block-start: 180px;
+    margin-block-start: 185px;
 }
 
   .header__subtitle {
@@ -394,6 +394,7 @@
     align-self: end;
     max-inline-size: 491px;
     margin-inline-end: 5px;
+    margin-block-end: 110px;
     line-height: 1.3;
   }
 
