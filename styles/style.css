@@ -285,7 +285,6 @@
   .header__subtitle {
     justify-self: end;
     max-inline-size: 364px;
-    margin-block-end: 64px;
   }
 
   .header__theme-menu-list {
