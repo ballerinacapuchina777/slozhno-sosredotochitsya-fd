@@ -50,10 +50,11 @@
   position: relative;
 }
 
+
 .header__theme-menu {
   justify-self: end;
   align-self: start;
-  padding-block-start: 70px;
+  padding-block-start: 67px;
   color: var(--accent-color);
 }
 
@@ -270,6 +271,10 @@
   text-shadow: var(--title-text-shadow);
 }
 
+.br-mobile {
+  display: inline;
+}
+
 @media (min-width: 768px) {
   .header__title {
     font-size: clamp(7.5rem, 0.5625rem + 14.4531vw, 9.8125rem);
@@ -352,6 +357,10 @@
     padding-inline: var(--page-padding);
   }
 
+  .br-mobile {
+  display: none;
+}
+
   .header__theme-menu {
     justify-self: center;
     padding-block-start: 0;
@@ -383,6 +392,7 @@
     max-inline-size: 491px;
     margin-block-end: 115px;
     margin-inline-end: 5px;
+    line-height: 1.3;
   }
 
 
