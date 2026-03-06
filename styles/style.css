@@ -285,7 +285,7 @@
   .header__subtitle {
     justify-self: end;
     max-inline-size: 364px;
-    margin-block-start: 50px;
+    margin-block-start: 150px;
   }
 
   .header__theme-menu-list {
@@ -310,7 +310,7 @@
   }
 
   .content__section_type_what {
-    grid-template-columns: 236px 1fr;
+    grid-template-columns: 200px 1fr;
     column-gap: 20px;
     align-items: start;
   }
@@ -321,8 +321,20 @@
 
   .content__section_type_what .content__cards {
     grid-column: 2 / 3;
-    grid-template-columns: 1fr;
+    display: grid;
+    gap: 20px;
   }
+
+  .content__section_type_what .content__card {
+    display: grid;
+    gap: 10px;
+  }
+
+  .content__section_type_what .content__card-title.title-decor {
+    display: block;
+    inline-size: 100%;
+  }
+
 
   .gallery {
     gap: 20px;
