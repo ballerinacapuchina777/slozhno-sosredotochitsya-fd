@@ -283,6 +283,10 @@
   display: inline;
 }
 
+.tablet-break {
+  display: none;
+}
+
 @media (min-width: 768px) {
   .header__title {
     font-size: clamp(7.5rem, 0.5625rem + 14.4531vw, 9.8125rem);
@@ -308,6 +312,10 @@
     margin-block: 60px;
     padding-block-end: 60px;
     gap: 80px;
+  }
+
+  .tablet-break {
+    display: inline;
   }
 
   .content__section {
