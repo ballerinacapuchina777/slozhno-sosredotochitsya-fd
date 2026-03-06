@@ -190,8 +190,15 @@
 
 .content__card {
   display: grid;
-  gap: 10px;
   align-content: start;
+}
+
+.content__section:not(.content__section_type_how) .content__card {
+  gap: 10px;
+}
+
+.content__section_type_how .content__card {
+  gap: 20px;
 }
 
 .content__card-title {
