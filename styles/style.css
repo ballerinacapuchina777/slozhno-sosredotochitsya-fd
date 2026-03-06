@@ -166,7 +166,7 @@
 .content {
   padding: 0 var(--page-padding);
   margin-block: 40px;
-  padding-block-end: 40px;
+  
   display: grid;
   gap: var(--section-gap);
 }
@@ -435,10 +435,10 @@
     
   }
   
-.gallery__grid {
-  grid-template-columns: repeat(3, 1fr);
-  grid-template-rows: 260px 315px 433px;
-  gap: 20px;
+  .gallery__grid {
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: 260px 315px 433px;
+    gap: 20px;
 }
 
   .content__section_type_what .content__cards {
