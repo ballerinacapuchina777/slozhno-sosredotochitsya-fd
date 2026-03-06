@@ -364,7 +364,7 @@
   .content {
     max-inline-size: none;
     margin-inline: 0;
-    padding-inline: var(--page-padding);
+    padding-block-end: 0;
   }
 
   .br-mobile {
