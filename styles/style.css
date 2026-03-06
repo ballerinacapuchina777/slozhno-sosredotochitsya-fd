@@ -464,4 +464,8 @@
     grid-template-columns: repeat(3, 1fr);
     gap: 20px;
   }
+
+  .tablet-break {
+    display: none;
+  }
 }
