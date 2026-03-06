@@ -244,7 +244,7 @@
 
 .gallery {
   display: grid;
-  gap: var(--card-gap);
+  gap: 10px;
 }
 
 .gallery__title {
@@ -254,7 +254,7 @@
 
 .gallery__grid {
   display: grid;
-  gap: var(--card-gap);
+  gap: 10px;
 }
 
 .gallery__image {
@@ -429,13 +429,17 @@
   }
 
   .gallery__image {
+    inline-size: 100%;
     block-size: 100%;
+    object-fit: cover;
+    
   }
   
-
-  .gallery__grid {
-    min-block-size: 1091px;
-  }
+.gallery__grid {
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: 260px 315px 433px;
+  gap: 20px;
+}
 
   .content__section_type_what .content__cards {
     grid-column: 1 / -1;
