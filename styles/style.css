@@ -285,6 +285,10 @@
     align-items: start;
   }
 
+  .content__section-title {
+    max-width: 236px;
+  }
+
   .content__section_type_what {
     grid-template-columns: 1fr;
     gap: 20px;
@@ -391,6 +395,10 @@
     column-gap: 20px;
     row-gap: 20px;
     align-items: start;
+  }
+
+   .content__section-title {
+    max-width: 315px;
   }
 
   .content__section_type_what .content__section-title {
