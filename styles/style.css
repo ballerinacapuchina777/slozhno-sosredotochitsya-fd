@@ -231,8 +231,9 @@
 
 .gallery__image {
   inline-size: 100%;
-  block-size: auto;
+  block-size: 100%;
   object-fit: cover;
+  display: block;
 }
 
 .footer {
@@ -306,7 +307,7 @@
   .gallery__grid {
     gap: 20px;
     grid-template-columns: repeat(3, 1fr);
-    grid-template-rows: repeat(3, 260px);
+    grid-template-rows: repeat(3);
   }
 
   .gallery__image_type_sunset {
@@ -406,7 +407,7 @@
     grid-row: 1 / 2;
   }
 
-  
+
   .gallery__grid {
     grid-template-columns: repeat(3, 1fr);
     gap: 20px;
