@@ -168,18 +168,16 @@
 .content__card {
   display: grid;
   align-content: start;
-}
-
-.content__section:not(.content__section_type_how) .content__card {
   gap: 10px;
 }
 
-.content__section_type_how .content__cards > .content__card {
+.content__card_type_how {
   gap: 20px;
 }
 
-.content__section_type_how .content__cards > .content__card > .content__card {
-  gap: 10px;
+.content__how-list {
+  display: grid;
+  gap: 20px;
 }
 
 .content__card-title {
@@ -418,9 +416,5 @@
     grid-row: 2 / 3;
     grid-template-columns: repeat(3, 1fr);
     gap: 20px;
-  }
-
-  .tablet-break {
-    display: none;
   }
 }
